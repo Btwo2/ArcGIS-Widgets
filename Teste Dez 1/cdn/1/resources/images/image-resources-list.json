@@ -1,0 +1,72 @@
+{
+  "1774833404784": {
+    "originalName": "1652706664873.png",
+    "fileName": "1774833404784.png",
+    "size": 19343,
+    "url": "${appResourceUrl}/images/widget_2/1774833404784.png",
+    "created": 1774833404784,
+    "resourcesPrefix": "images/widget_2",
+    "referredIds": [],
+    "originId": "1774833404784",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 957,
+    "originalHeight": 445
+  },
+  "1775497142490": {
+    "originalName": "Download_icon.png",
+    "fileName": "1775497142490.png",
+    "size": 19515,
+    "url": "${appResourceUrl}/images/widget_309/1775497142490.png",
+    "created": 1775497142490,
+    "resourcesPrefix": "images/widget_309",
+    "referredIds": [],
+    "originId": "1775497142490",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 753,
+    "originalHeight": 649
+  },
+  "1775499642359": {
+    "originalName": "Download_icon.png",
+    "fileName": "1775499642359.png",
+    "size": 17582,
+    "url": "${appResourceUrl}/images/widget_309/1775499642359.png",
+    "created": 1775499642359,
+    "resourcesPrefix": "images/widget_309",
+    "referredIds": [],
+    "originId": "1775499642359",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 488,
+    "originalHeight": 486
+  },
+  "1776177916471": {
+    "originalName": "SIAGEO Amazônia.png",
+    "fileName": "1776177916471.png",
+    "size": 249481,
+    "url": "${appResourceUrl}/images/widget_2/1776177916471.png",
+    "created": 1776177916471,
+    "resourcesPrefix": "images/widget_2",
+    "referredIds": [],
+    "originId": "1776177916471",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1208,
+    "originalHeight": 1152
+  },
+  "1786037860575": {
+    "originalName": "SIGDeZ_Logo_Whatsapp.png",
+    "fileName": "1786037860575.png",
+    "size": 1085637,
+    "url": "${appResourceUrl}/images/widget_2/1786037860575.png",
+    "created": 1786037860575,
+    "resourcesPrefix": "images/widget_2",
+    "referredIds": [],
+    "originId": "1786037860575",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1254,
+    "originalHeight": 1254
+  }
+}
