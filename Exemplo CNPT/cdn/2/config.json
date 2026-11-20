@@ -5915,19 +5915,7 @@
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "openType": "_blank",
-            "value": "",
-            "expression": {
-              "name": "{QGIS URL}",
-              "parts": [
-                {
-                  "type": "FIELD",
-                  "exp": "{QGIS URL}",
-                  "dataSourceId": "dataSource_5-0-selection",
-                  "jimuFieldName": "qgis_url",
-                  "isFromRepeatedDataSourceContext": false
-                }
-              ]
-            }
+            "value": ""
           },
           "scale": "Fit",
           "imageParam": {
@@ -5944,29 +5932,17 @@
           },
           "imageDisplayQualityMode": "ORIGINAL",
           "imgSourceType": "",
-          "srcExpression": null,
           "imageFillMode": "FIT",
-          "altTextExpression": null,
           "dynamicUrlType": null,
-          "toolTipExpression": {
-            "name": "",
-            "parts": [
-              {
-                "type": "STRING",
-                "exp": "\"\""
-              }
-            ]
-          }
+          "altTextWithAttachmentName": null,
+          "toolTipWithAttachmentName": null,
+          "isSelectedFromRepeatedDataSourceContext": null,
+          "useDataSourceForMainDataAndViewSelector": null
         },
         "styleConfig": {}
       },
       "id": "widget_309",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8"
-        }
-      ],
+      "useDataSources": [],
       "style": {
         "background": {
           "color": null,
@@ -6213,13 +6189,7 @@
           "LARGE": "layout_288"
         }
       },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8",
-          "fields": []
-        }
-      ],
+      "useDataSources": [],
       "outputDataSources": []
     },
     "widget_360": {
@@ -6242,15 +6212,7 @@
         }
       },
       "id": "widget_360",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8",
-          "fields": [
-            "camada"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_361": {
@@ -6273,15 +6235,7 @@
         }
       },
       "id": "widget_361",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8",
-          "fields": [
-            "hierarquia"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_362": {
@@ -6325,13 +6279,7 @@
         }
       },
       "id": "widget_362",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_8",
-          "mainDataSourceId": "dataSource_8",
-          "fields": []
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_366": {
@@ -6702,13 +6650,7 @@
           "LARGE": "layout_314"
         }
       },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_9",
-          "mainDataSourceId": "dataSource_9",
-          "fields": []
-        }
-      ],
+      "useDataSources": [],
       "outputDataSources": []
     },
     "widget_421": {
@@ -6731,15 +6673,7 @@
         }
       },
       "id": "widget_421",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_9",
-          "mainDataSourceId": "dataSource_9",
-          "fields": [
-            "camada"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_422": {
@@ -6762,15 +6696,7 @@
         }
       },
       "id": "widget_422",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_9",
-          "mainDataSourceId": "dataSource_9",
-          "fields": [
-            "hierarquia"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_423": {
@@ -6836,15 +6762,7 @@
         }
       },
       "id": "widget_423",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_9",
-          "mainDataSourceId": "dataSource_9",
-          "fields": [
-            "qgis_url"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_424": {
@@ -7055,13 +6973,7 @@
           "LARGE": "layout_316"
         }
       },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_11",
-          "mainDataSourceId": "dataSource_11",
-          "fields": []
-        }
-      ],
+      "useDataSources": [],
       "outputDataSources": []
     },
     "widget_426": {
@@ -7084,15 +6996,7 @@
         }
       },
       "id": "widget_426",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_11",
-          "mainDataSourceId": "dataSource_11",
-          "fields": [
-            "camada"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_427": {
@@ -7115,15 +7019,7 @@
         }
       },
       "id": "widget_427",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_11",
-          "mainDataSourceId": "dataSource_11",
-          "fields": [
-            "hierarquia"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_428": {
@@ -7189,15 +7085,7 @@
         }
       },
       "id": "widget_428",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_11",
-          "mainDataSourceId": "dataSource_11",
-          "fields": [
-            "qgis_url"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "useDataSourcesEnabled": true
     },
     "widget_429": {
@@ -7233,7 +7121,7 @@
   "mainSizeMode": "LARGE",
   "theme": "themes/morandi/",
   "forBuilderAttributes": {
-    "lockLayout": false,
+    "lockLayout": true,
     "viewPortSize": {
       "LARGE": {
         "width": 1280,
@@ -7568,7 +7456,7 @@
       }
     }
   },
-  "publishTimestamp": 1795189831444,
+  "publishTimestamp": 1795190923984,
   "useAutoSortInFixedLayout": true,
   "header": {
     "layout": {
@@ -7601,55 +7489,6 @@
   },
   "sharedThemeVariables": null,
   "dataSources": {
-    "dataSource_7": {
-      "id": "dataSource_7",
-      "type": "WEB_MAP",
-      "sourceLabel": "SIAGEO 2019",
-      "itemId": "ee1eea2aafa54245b3a95b85cec47adb",
-      "portalUrl": "https://www.arcgis.cnptia.embrapa.br/portal"
-    },
-    "dataSource_8": {
-      "id": "dataSource_8",
-      "type": "FEATURE_LAYER",
-      "sourceLabel": "Dados_Básicos_Estaduais",
-      "url": "https://www.arcgis.cnptia.embrapa.br/server/rest/services/Hosted/Dados_B_sicos_Estaduais/FeatureServer/0",
-      "layerId": "0"
-    },
-    "dataSource_9": {
-      "id": "dataSource_9",
-      "type": "FEATURE_LAYER",
-      "sourceLabel": "Tabela ZEE Estaduais",
-      "url": "https://www.arcgis.cnptia.embrapa.br/server/rest/services/Hosted/ZEE_Estaduais/FeatureServer/0",
-      "layerId": "0"
-    },
-    "dataSource_11": {
-      "id": "dataSource_11",
-      "type": "FEATURE_LAYER",
-      "sourceLabel": "Tabela MacroZEE Amazonia Legal",
-      "url": "https://www.arcgis.cnptia.embrapa.br/server/rest/services/Hosted/MacroZEE_Amazonia_Legal/FeatureServer/0",
-      "layerId": "0"
-    },
-    "dataSource_13": {
-      "id": "dataSource_13",
-      "type": "FEATURE_LAYER",
-      "sourceLabel": "Tabela Proposta Uniformização ZEE",
-      "url": "https://www.arcgis.cnptia.embrapa.br/server/rest/services/Hosted/Proposta_Uniformiza__o_ZEE/FeatureServer/0",
-      "layerId": "0"
-    },
-    "dataSource_14": {
-      "id": "dataSource_14",
-      "type": "WEB_MAP",
-      "sourceLabel": "SIAGEO ZEE",
-      "itemId": "0c303211706347fbb86db46715ba7f63",
-      "portalUrl": "https://www.arcgis.cnptia.embrapa.br/portal"
-    },
-    "dataSource_15": {
-      "id": "dataSource_15",
-      "type": "WEB_MAP",
-      "sourceLabel": "SIGDeZ",
-      "itemId": "215f8020b0ba41dd8f9cd6f7177ffe9d",
-      "portalUrl": "https://www.arcgis.cnptia.embrapa.br/portal"
-    },
     "dataSource_16": {
       "id": "dataSource_16",
       "type": "WEB_MAP",
@@ -7753,7 +7592,7 @@
       ]
     }
   },
-  "timestamp": 1795189823341,
+  "timestamp": 1795190913099,
   "customTheme": {
     "focusedStyles": {
       "color": "#2b05dc"
