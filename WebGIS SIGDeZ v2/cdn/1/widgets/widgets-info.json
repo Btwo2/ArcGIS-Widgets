@@ -10668,9 +10668,63 @@
     "group": 2
   },
   {
-    "name": "catalogo-camadas-dinamico-editavel-v0",
+    "name": "catalogo-camadas",
     "manifest": {
-      "name": "catalogo-camadas-dinamico-editavel-v0",
+      "name": "catalogo-camadas",
+      "label": "Catálogo de Camadas",
+      "type": "widget",
+      "version": "1.17.0",
+      "exbVersion": "1.17.0",
+      "author": "btwo2",
+      "description": "Árvore hierárquica para adicionar camadas do mapa",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "dependency": "jimu-arcgis",
+      "properties": {
+        "hasSettingPage": true,
+        "hasConfig": true
+      },
+      "defaultSize": {
+        "width": 350,
+        "height": 500
+      }
+    },
+    "uri": "widgets/catalogo-camadas/",
+    "icon": "widgets/catalogo-camadas/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "catalogo-camadas-dinamico",
+    "manifest": {
+      "name": "catalogo-camadas-dinamico",
+      "label": "Árvore Hierárquica de Camadas",
+      "type": "widget",
+      "version": "1.17.0",
+      "exbVersion": "1.17.0",
+      "author": "btwo2",
+      "description": "Árvore hierárquica para adicionar e remover camadas do mapa",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "dependency": "jimu-arcgis",
+      "properties": {
+        "hasSettingPage": true,
+        "hasConfig": true
+      },
+      "defaultSize": {
+        "width": 350,
+        "height": 500
+      }
+    },
+    "uri": "widgets/catalogo-camadas-dinamico/",
+    "icon": "widgets/catalogo-camadas-dinamico/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "catalogo-camadas-dinamico-editavel",
+    "manifest": {
+      "name": "catalogo-camadas-dinamico-editavel",
       "label": "Árvore de Camadas",
       "type": "widget",
       "version": "1.17.0",
@@ -10689,8 +10743,8 @@
         "height": 500
       }
     },
-    "uri": "widgets/catalogo-camadas-dinamico-editavel-v0/",
-    "icon": "widgets/catalogo-camadas-dinamico-editavel-v0/icon.svg",
+    "uri": "widgets/catalogo-camadas-dinamico-editavel/",
+    "icon": "widgets/catalogo-camadas-dinamico-editavel/icon.svg",
     "order": 700,
     "group": 7
   },

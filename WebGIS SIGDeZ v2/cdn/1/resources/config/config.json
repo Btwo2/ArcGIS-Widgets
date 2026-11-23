@@ -4259,7 +4259,7 @@
     "widget_98": {
       "uri": "widgets/common/add-data/",
       "version": "1.17.0",
-      "label": "Add Data",
+      "label": "Adicionar Camada",
       "config": {
         "disableAddBySearch": true
       },
@@ -4268,7 +4268,7 @@
     "widget_100": {
       "uri": "widgets/arcgis/analysis/",
       "version": "1.17.0",
-      "label": "Analysis",
+      "label": "Análise",
       "config": {
         "toolList": []
       },
@@ -4294,7 +4294,74 @@
       "id": "widget_106",
       "useMapWidgetIds": [
         "widget_11"
-      ]
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      }
     },
     "widget_107": {
       "id": "widget_107",
@@ -4453,15 +4520,18 @@
     "widget_115": {
       "uri": "widgets/arcgis/basemap-gallery/",
       "version": "1.17.0",
-      "label": "Basemap Gallery",
+      "label": "Galeria de Basemap",
       "config": {},
-      "id": "widget_115"
+      "id": "widget_115",
+      "useMapWidgetIds": [
+        "widget_11"
+      ]
     },
     "widget_120": {
       "uri": "widgets/common/share/",
       "version": "1.17.0",
       "offPanel": true,
-      "label": "Share 4",
+      "label": "Compartilhar",
       "config": {
         "uiMode": "POPUP",
         "popup": {
@@ -5599,7 +5669,7 @@
     "widget_453": {
       "uri": "widgets/catalogo-camadas-dinamico-editavel-v2/",
       "version": "1.17.0",
-      "label": "Árvore de Camadas v2 3",
+      "label": "Temáticas",
       "config": {
         "fontFamily": "inherit",
         "fontSize": 13,
@@ -5803,7 +5873,7 @@
     "widget_460": {
       "uri": "widgets/catalogo-camadas-dinamico-editavel-v2/",
       "version": "1.17.0",
-      "label": "Árvore de Camadas v2 4",
+      "label": "Temáticas",
       "config": {
         "fontFamily": "inherit",
         "fontSize": 13,
@@ -5815,10 +5885,20 @@
         "uppercase": false,
         "textShadow": false,
         "shadowColor": "",
-        "startCollapsed": false,
-        "zoomOnAdd": false
+        "startCollapsed": true,
+        "zoomOnAdd": true
       },
-      "id": "widget_460"
+      "id": "widget_460",
+      "useMapWidgetIds": [
+        "widget_11"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_16-0",
+          "mainDataSourceId": "dataSource_16-0",
+          "rootDataSourceId": "dataSource_16"
+        }
+      ]
     },
     "widget_461": {
       "uri": "widgets/catalogo-camadas-dinamico-editavel-v2/",
@@ -6199,7 +6279,7 @@
       "orgSetting": {}
     }
   },
-  "timestamp": 1795321436839,
+  "timestamp": 1795439858656,
   "customTheme": {
     "focusedStyles": {
       "color": "#2b05dc"
